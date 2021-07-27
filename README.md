@@ -3,12 +3,15 @@
 ### What is this repository for? ###
 
 前後台合併架構基底,較適用於中小型專案
-react.js ^16.5.2
-redux ^7.2.4
-saga ^1.1.3
-webpack ^4.25.1
+
+### Technology stack ###
+
 node.js 14.7.3
-express ^4.17.1
++ react.js ^16.5.2
++ redux ^7.2.4 
++ saga ^1.1.3 
++ webpack ^4.25.1
++ express ^4.17.1
 
 ### Introduction ###
 
@@ -35,7 +38,6 @@ git clone https://github.com/BrazilSpace/react-node-base.git
 1.npm run init
 
 # Start production server
-
 2.npm start
 ```
 
