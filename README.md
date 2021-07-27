@@ -1,12 +1,12 @@
 # react-node-base
 
-### What is this repository for? ###
+### Description ###
 
 前後台合併架構基底,較適用於中小型專案
 
 ### Technology stack ###
 
-node.js 14.7.3
++ node.js 14.7.3
 + react.js ^16.5.2
 + redux ^7.2.4 
 + saga ^1.1.3 
