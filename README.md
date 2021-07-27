@@ -1,4 +1,4 @@
-# react-node-base# README #
+# react-node-base
 
 ### What is this repository for? ###
 
@@ -15,21 +15,31 @@ express ^4.17.1
 目前沒有串api, 暫時為前後台的雛形概念
 後台已先加入基本的mogoose和憑證的jwt middleware..等基本雛型
 
-預計0.7.0 加入
-1.完整redux到後端api串接流程
-2.hooks
-3.webpack 5
-4.註解生產文件套件
+#### 預計0.7.0 加入
+1. 完整redux到後端api串接流程
+2. hooks
+3. webpack 5
+4. 註解生產文件套件
 
-預計0.1.0 加入
-typescript
+#### 預計0.1.0 加入
+1. typescript
 
-### How do I get set up? ###
+### Quick Start ###
 
+```bash
+
+# Clone the repository
+git clone https://github.com/BrazilSpace/react-node-base.git
+
+# Install dependencies
 1.npm run init
+
+# Start production server
+
 2.npm start
+```
 
 
-### Check coding style ###
+### Check ESLint ###
 
 npm run lint
