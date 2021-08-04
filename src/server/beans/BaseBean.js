@@ -1,3 +1,9 @@
+/**
+ * api的input檢查基底
+ * @param {object} req requset
+ * @param {srting} obj 自定義input類型 ex. userInfo
+ * @returns {object}
+ */
 class baseBean {
   constructor() {
     this.input = null;

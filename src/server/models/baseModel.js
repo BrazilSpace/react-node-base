@@ -2,6 +2,9 @@ const mongoose = require('mongoose');
 const timestamps = require('mongoose-timestamp');
 const util = require('util');
 
+/**
+ * document基礎欄位新增
+ */
 function BaseModel() {
   mongoose.Schema.apply(this, arguments);
   this.add({
