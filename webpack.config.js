@@ -94,9 +94,6 @@ module.exports = () => {
         template: './public/index.html',
         favicon: './public/favicon.ico'
       }),
-      new webpack.DefinePlugin({
-        'process.env': JSON.stringify(dotenv.config().parsed)
-      }),
     ],
     devServer: {
       writeToDisk: true, // 保留dist
